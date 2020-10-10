@@ -11,10 +11,15 @@
     <div id="cabecalho">
          <header>
             <img src="logo2.jpeg">           
-             <h2>NA SUA GARAGEM</h2>
-         </header>
+             <h2>NA SUA GARAGEM</h2>                                                        
+         </header>                            
     </div>
-    
+
+    <ul id="inf">                
+        <li id="quemsomos">QUEM SOMOS</li>
+        <li id="contato">CONTATO</li>   
+     </ul>  
+
     <div id="botoes">
         <h1>NOSSOS SERVIÇOS</h1>
         <ul id="servicos">
@@ -24,9 +29,29 @@
             <li id="correia"><span>Correia Dentada</span></li>
         </ul>
     </div>
+      
+    <form>
+        <fieldset>
+             <legend>AGENDE UMA VISITA</legend>
+             <label for="nome">Nome:</label>
+             <input type="text" name="nome" value="Qual seu nome?">
+             <label for="browser">Escolha um serviço:</label>
+             <input list="servico" name="servico" id="servico">            
+                  <datalist id="servicoss">
+                      <option value="Injeção Eltrônica">
+                      <option value="Suspensão">
+                      <option value="Freios">
+                      <option value="Correia Dentada">                
+                  </datalist>           
+             <br><br><label for="email">E-mail:</label>
+             <input type="email" name="email" value="Qual seu email?"><br><br>
+             <label for="whats">WhatsApp:</label>
+             <input type="tel" name="whats" value="Qual seu número de celular?">
+        </fieldset>
+    </form> 
 
     <footer>
-        <p>Instagram | Facebook</p>
+        <p>Instagram | WhatsApp</p>
     </footer>
 </body>
 </html>

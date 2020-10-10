@@ -5,11 +5,13 @@ body{
 /*INICIO CABECALHO*/
 div#cabecalho{
     border: 2px solid white;    
-    background-color: #fff952
+    background-color: #fff952;
+    margin: auto;
+    height: 150px;
 }
 div#cabecalho img{
     margin-bottom: 100px;
-    margin-left:10px
+    margin-left:10px;    
 }   
 div#cabecalho h2{
     margin-left: 290px;
@@ -17,7 +19,34 @@ div#cabecalho h2{
     font-size: 15px;
     color:#ff1818;
 }
+ul#inf li{
+    color: white;
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    border:2px solid black;
+}
+ul#inf li:hover{
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all 0.1s ease-in;
+}
+ul#inf li#quemsomos{  
+    margin-right: 110px;
+    margin-left:1050px ;
+    margin-top: -170px;
+    font-size: 15px;   
+}
+ul#inf li#contato{   
+    margin-left: 1190px;
+    margin-right: 1px;
+    margin-top: -26px;
+    font-size: 15px;
+}
 /*FIM CABECALHO*/
+div#botoes{
+    height: 450px;
+    margin-top: 150px;
+}
 div#botoes h1{
     color: white;
     margin-left: 37px;
@@ -77,9 +106,15 @@ ul#servicos span{
     line-height: 250px;
     padding:7px;
 }
+form{
+    color: white;
+}
+fieldset{
+    border: 1px solid white;
+}
 footer{
     text-align: center;
     border-top: 2px solid white;
-    color: white;
-   
+    color: white;   
+    margin-top: 100px;
 }

@@ -4,7 +4,7 @@ body{
 }
 /*INICIO CABECALHO*/
 div#cabecalho{
-    border: 2px solid white;    
+    border: 2px solid white;  
     background-color: #fff952;
     margin: auto;
     height: 150px;
@@ -17,7 +17,7 @@ div#cabecalho h2{
     margin-left: 290px;
     margin-top: -130px;    
     font-size: 15px;
-    color:#ff1818;
+    color:#ff1818c9;
 }
 ul#inf li{
     color: white;
@@ -49,60 +49,55 @@ div#botoes{
 }
 div#botoes h1{
     color: white;
-    margin-left: 37px;
+    margin-left: 21px;
     margin-bottom: -15px;
     font-size: 25px;
-}
-ul#servicos li:hover{
-    -webkit-transform: scale(1.1);
-    -webkit-transition: all 0.1s ease-in;
 }
 ul#servicos{
     list-style: none;
     text-align: center;
     margin-bottom: 100px;
+    margin-left: -19px;
+}
+ul#servicos li{
+    border: 1px solid white;
+    width: 300px;
+    height: 100px;  
+}
+ul#servicos li:hover{
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all 0.1s ease-in;
 }
 ul#servicos li#injecao{
      background: url(injecao.jpeg) no-repeat;
      background-position: 50% 50%;
      background-size:300px 100px;
-     width: 300px;
-     height: 100px;   
-     border: 1px solid white;
+     height: 100px;       
 }
 ul#servicos li#suspensao{
      background: url(suspensao.jpeg) no-repeat;
      background-position: 50% 50%;
-     background-size: 300px 100px;
-     width: 300px;
-     height: 100px;   
+     background-size: 300px 100px; 
      margin-top: -102px;
-     margin-left: 330px;
-     border: 1px solid white;
+     margin-left: 330px;     
 }
 ul#servicos li#freios{
      background: url(freio.jpeg) no-repeat;
      background-position: 50% 50%;
-     background-size: 300px 100px;
-     width: 300px;
-     height: 100px;   
+     background-size: 300px 100px;   
      margin-top: -103px;
-     margin-left: 660px;
-     border: 1px solid white;
+     margin-left: 660px;   
 }
 ul#servicos li#correia{
      background: url(correia.jpeg) no-repeat;
      background-position: 50% 50%;
-     background-size: 300px 100px;
-     width: 300px;     
-     height: 100px;   
+     background-size: 300px 100px; 
      margin-top: -101px;
-     margin-left: 990px;
-     border: 1px solid white;
+     margin-left: 990px;    
 }
 ul#servicos span{
     text-align: center;
-    background-color:  #fff952;
+    color: white;
     line-height: 250px;
     padding:7px;
 }
@@ -111,6 +106,16 @@ form{
 }
 fieldset{
     border: 1px solid white;
+    width: 300px;
+    margin: auto;
+    margin-top: -195px;
+}
+input:hover, textarea:hover{
+  
+}
+fieldset#cadastro legend{
+   margin-left: 56px;
+   
 }
 footer{
     text-align: center;

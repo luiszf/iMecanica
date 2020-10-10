@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">  
-    <title>iMecânica</title>
+    <title>iMecânica - Na sua garagem</title>
 </head>
 <body>
     <div id="cabecalho">
@@ -16,8 +16,8 @@
     </div>
 
     <ul id="inf">                
-        <li id="quemsomos">QUEM SOMOS</li>
-        <li id="contato">CONTATO</li>   
+        <li id="quemsomos">Quem Somos</li>
+        <li id="contato">Contato</li>   
      </ul>  
 
     <div id="botoes">
@@ -31,22 +31,30 @@
     </div>
       
     <form>
-        <fieldset>
+        <fieldset id="cadastro">
              <legend>AGENDE UMA VISITA</legend>
-             <label for="nome">Nome:</label>
-             <input type="text" name="nome" value="Qual seu nome?">
-             <label for="browser">Escolha um serviço:</label>
-             <input list="servico" name="servico" id="servico">            
-                  <datalist id="servicoss">
+             <label for="nome">Nome</label><br>
+             <input type="text" name="nome" value="Qual seu nome?"><br><br>               
+             <label for="email">E-mail</label><br>
+             <input type="email" name="email" value="Qual seu email?"><br><br>
+             <label for="whats">WhatsApp</label><br>
+             <input type="tel" name="whats" value="Qual seu número de celular?"><br><br>
+             <label for="fopcao">Escolha um serviço</label><br>
+             <input list="opcoes" name="fopcao" id="fopcao"><br><br>  
+                  <datalist id="opcoes">
                       <option value="Injeção Eltrônica">
                       <option value="Suspensão">
                       <option value="Freios">
-                      <option value="Correia Dentada">                
-                  </datalist>           
-             <br><br><label for="email">E-mail:</label>
-             <input type="email" name="email" value="Qual seu email?"><br><br>
-             <label for="whats">WhatsApp:</label>
-             <input type="tel" name="whats" value="Qual seu número de celular?">
+                      <option value="Correia Dentada">        
+                  </datalist>  
+             <label for="descricao">Descreve seu problema</label><br>
+             <input type="text" name="descricao" value="Dê detalhes, por favor"><br><br>
+             <label for="endreco">Endereço</label><br>
+             <input type="datetime-local" name="endereco" value="Sua localidade, por favor"><br><br>
+             <label for="data">Data</label><br>
+             <input type="date" name="data" value="Data para visita"><br><br>
+             <label for="hora">Hora do dia</label><br>
+             <input type="time" name="hora"><br><br>         
         </fieldset>
     </form> 
 

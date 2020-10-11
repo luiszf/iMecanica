@@ -2,6 +2,9 @@ body{
     background-color:black;
     font-family: 'Coustard';
 }
+a{
+    color: white;
+}
 /*INICIO CABECALHO*/
 div#cabecalho{
     border: 2px solid white;  
@@ -17,7 +20,7 @@ div#cabecalho h2{
     margin-left: 290px;
     margin-top: -130px;    
     font-size: 15px;
-    color:#ff1818c9;
+    color:#e20101c9;
 }
 ul#inf li{
     color: white;
@@ -69,27 +72,27 @@ ul#servicos li:hover{
     -webkit-transition: all 0.1s ease-in;
 }
 ul#servicos li#injecao{
-     background: url(injecao.jpeg) no-repeat;
+     background: url(imagens/injecao.jpeg) no-repeat;
      background-position: 50% 50%;
      background-size:300px 100px;
      height: 100px;       
 }
 ul#servicos li#suspensao{
-     background: url(suspensao.jpeg) no-repeat;
+     background: url(imagens/suspensao.jpeg) no-repeat;
      background-position: 50% 50%;
      background-size: 300px 100px; 
      margin-top: -102px;
      margin-left: 330px;     
 }
 ul#servicos li#freios{
-     background: url(freio.jpeg) no-repeat;
+     background: url(imagens/freio.jpeg) no-repeat;
      background-position: 50% 50%;
      background-size: 300px 100px;   
      margin-top: -103px;
      margin-left: 660px;   
 }
 ul#servicos li#correia{
-     background: url(correia.jpeg) no-repeat;
+     background: url(imagens/correia.jpeg) no-repeat;
      background-position: 50% 50%;
      background-size: 300px 100px; 
      margin-top: -101px;

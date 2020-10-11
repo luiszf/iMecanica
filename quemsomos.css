@@ -1,0 +1,60 @@
+body{
+    background-color:black;
+    font-family: 'Coustard';
+}
+a{
+    color: white;
+}
+/*INICIO CABECALHO*/
+div#cabecalho{
+    border: 2px solid white;  
+    background-color: #fff952;
+    margin: auto;
+    height: 150px;
+}
+div#cabecalho img{
+    margin-bottom: 100px;
+    margin-left:10px;    
+}   
+div#cabecalho h2{
+    margin-left: 290px;
+    margin-top: -130px;    
+    font-size: 15px;
+    color:#e20101c9;
+}
+ul#inf li{
+    color: white;
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    border:2px solid black;
+}
+ul#inf li:hover{
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all 0.1s ease-in;
+}
+ul#inf li#home{  
+    margin-right: 120px;
+    margin-left:1050px ;
+    margin-top: -170px;
+    font-size: 15px;   
+}
+ul#inf li#contato{   
+    margin-left: 1190px;
+    margin-right: 1px;
+    margin-top: -22px;
+    font-size: 15px;
+}
+/*FIM CABECALHO*/
+article#qm{
+    width: 300px;
+    margin-left: 550px;
+    margin-top: 150px;
+    color: white;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid white;
+    color: white;   
+    margin-top: 15px;
+}

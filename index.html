@@ -1,65 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Coustard&display=swap" rel="stylesheet">  
-    <title>iMecânica - Na sua garagem</title>
+    <link rel="stylesheet" href="css/main.css">
+
+     
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <title>iMecânica</title>
 </head>
+
 <body>
-    <div id="cabecalho">
-         <header>
-            <img src="imagens/logo2.jpeg">           
-             <h2>Na sua garagem</h2>                                                        
-         </header>                            
+    <div id="initial-screen">
+       
+        <header>
+            <h1>iMecânica</h1>
+            <h1>Pedidos</h1>
+            <h2>Freio</h2>
+            <h2>Injeção Eletrônica/h2>
+                <h2>Corrente Dentada</h2>
+                <h3>Uma mecânica na sua garagem!</h3>
+                <h4>Qual o problema no carro? Nós iremos até você</h4>
+        </header>
+
+        <div class="main-img">
+        </div>
+
+        <div id="img-servicos">
+            <div class="supensao">Suspensão</div>
+            <div class="freio">Freio</div>
+            <div class="injecao">Injeção Eletrônica</div>
+            <div class="corrente">Corrente Dentada</div>
+            <div class="others">Outros</div>
+        </div>
+
     </div>
-
-    <ul id="inf">                
-        <li id="quemsomos"><a href="quemsomos.html">QUEM SOMOS</a></li>
-        <li id="contato"><a href="">CONTATO</a></li>   
-     </ul>  
-
-    <div id="botoes">
-        <h1>NOSSOS SERVIÇOS</h1>
-        <ul id="servicos">
-            <li id="injecao"><span>Injeção Eletrônica</span></li>
-            <li id="suspensao"><span>Suspensão</span></li>
-            <li id="freios"><span>Freios</span></li>
-            <li id="correia"><span>Correia Dentada</span></li>
-        </ul>
-    </div>
-      
-    <form>
-        <fieldset id="cadastro">
-             <legend>AGENDE UM SERVIÇO</legend>
-             <label for="nome">Nome</label><br>
-             <input type="text" name="nome" value="Qual seu nome?"><br><br>               
-             <label for="email">E-mail</label><br>
-             <input type="email" name="email" value="Qual seu email?"><br><br>
-             <label for="whats">WhatsApp</label><br>
-             <input type="tel" name="whats" value="Qual seu número de celular?"><br><br>
-             <label for="fopcao">Escolha um serviço</label><br>
-             <input list="opcoes" name="fopcao" id="fopcao"><br><br>  
-                  <datalist id="opcoes">
-                      <option value="Injeção Eltrônica">
-                      <option value="Suspensão">
-                      <option value="Freios">
-                      <option value="Correia Dentada">        
-                  </datalist>  
-             <label for="descricao">Descreve seu problema</label><br>
-             <input type="text" name="descricao" value="Dê detalhes, por favor"><br><br>
-             <label for="endreco">Endereço</label><br>
-             <input type="datetime-local" name="endereco" value="Sua localidade, por favor"><br><br>
-             <label for="data">Data</label><br>
-             <input type="date" name="data" value="Data para visita"><br><br>
-             <label for="hora">Hora do dia</label><br>
-             <input type="time" name="hora"><br><br>         
-        </fieldset>
-    </form> 
-
-    <footer>
-        <p>Instagram | WhatsApp</p>
-    </footer>
 </body>
+
 </html>

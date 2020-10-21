@@ -1,0 +1,20 @@
+body{
+    font-family: 'Ropa Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(55, 51, 47, 0.65) 0%, rgba(181,     175, 151, 0.286) 61.98%), #BABABA;
+}
+div#initial-screen{
+    position: relative;
+    width: 1440px;
+    height: 1024px;  
+}
+
+.main-img{
+    position: absolute;
+    width: 1342px;
+    height: 468px;
+    left: 49px;
+    top: 228px;
+    
+    background: url(/img/mecanico-casa.jpeg)no-repeat;
+    border-radius: 25px;
+}

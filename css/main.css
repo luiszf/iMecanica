@@ -1,20 +1,85 @@
 body{
-    font-family: 'Ropa Sans', sans-serif;
-    background: linear-gradient(180deg, rgba(55, 51, 47, 0.65) 0%, rgba(181,     175, 151, 0.286) 61.98%), #BABABA;
+    font-family: 'Ropa Sans', sans-serif;  
+    
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,51,47,0.65)), to(rgba(181,175,151,0.286))) fixed;  
 }
-div#initial-screen{
-    position: relative;
-    width: 1440px;
-    height: 1024px;  
+a{
+   text-decoration: none;
+   color: #000000;
 }
+
+.top{
+    text-transform: uppercase;
+    display:inline-flex;
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0px;
+
+    list-style: none;
+    justify-content: space-between;
+
+    
+}
+
+.titulo-mecanica{
+    text-transform: none;
+    display: inline;
+  
+    font-size: 25px;
+  
+}
+
+.titulo-pedidos{
+    text-transform: none;
+    
+    font-size: 25px;
+
+}
+
+
 
 .main-img{
     position: absolute;
-    width: 1342px;
-    height: 468px;
-    left: 49px;
-    top: 228px;
+    width:850px;
+    height:300px;
     
-    background: url(/img/mecanico-casa.jpeg)no-repeat;
+    
+
+    display: flex;
+   
+    left: 250px;
+    top: 150px;
+  
+   
+    background: url(/img/mecanico-casa.jpeg) no-repeat;
     border-radius: 25px;
 }
+
+#img-servicos{
+    display:inline-flex;
+    
+    
+    position: absolute;
+    top: 470px;
+    left: 0;
+    right: 0;
+
+   
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+

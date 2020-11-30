@@ -5,6 +5,8 @@
 body{
     font-family: 'Ropa Sans', sans-serif;    
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,51,47,0.65)), to(rgba(181,175,151,0.286))) fixed;  
+    height:720px;
+    width: 1280px;
 }
 a{
    text-decoration: none;

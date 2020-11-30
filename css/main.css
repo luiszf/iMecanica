@@ -15,11 +15,11 @@ a{
    
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+ 
+    right: 0%;
   
-    padding: 0px;
-    margin: 20px;
+    width: 720px;
+    
     list-style: none;
     justify-content: space-between;   
 

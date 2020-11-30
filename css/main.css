@@ -8,6 +8,16 @@ body{
     height:720px;
     width: 1280px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
 a{
    text-decoration: none;
    color: #000000;

@@ -1,39 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Ropa Sans', sans-serif;    
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,51,47,0.65)), to(rgba(181,175,151,0.286))) fixed;  
-
-    height:1280px;
-    max-width: 720px;
 }
-a{
-   text-decoration: none;
-   color: #000000;
+.one,
+.two,
+.three{
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
 }
-.cabecalho{  
-    text-transform: uppercase;
-    display:inline-flex;
-   
+.menu-toggle{
     position: absolute;
-    top: 0;
- 
-    right: 0%;
-  
-    width: 720px;
-    
-    list-style: none;
-    justify-content: space-between;   
 
-    border-bottom: 1px solid black; 
+    width: 10%;
+   
+    left: 318px;
 }
+.menu{
+    list-style: none;
+
+    position: absolute;
+   
+    width: 80%;
+
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    display: flex;
+    
+    justify-content: space-between;  
+
+    font-size: 10px;
+
+    background-color: black;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+
 .cabecalho-mecanica{
     text-transform: none;
   
-    font-size: 25px;
+    font-size: 15px;
 }
 .cabecalho-pedidos{
     text-transform: none;
     
-    font-size: 25px;
+    font-size: 15px;
 }
 .texto-apresentacao{
     position: relative;
@@ -54,7 +75,7 @@ a{
       font-size: 30px;
       background-color: white;
       padding: 10px;
-      width: 650px;
+      width: 360px;
       border-radius: 10px;
 }
 .texto-apresentacao h2{
@@ -65,7 +86,7 @@ a{
     display: block;
 
     height:300px;
-    width:700px;
+    width:300px;
 
     top: 150px;
    

@@ -6,6 +6,7 @@
 body{
     font-family: 'Ropa Sans', sans-serif;    
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,51,47,0.65)), to(rgba(181,175,151,0.286))) fixed;  
+    
 }
 .one,
 .two,
@@ -14,20 +15,38 @@ body{
     height: 5px;
     width: 100%;
     margin: 6px auto;
+    
 }
-.menu-toggle{
+.menu-hamburguer{
     position: absolute;
 
     width: 10%;
    
-    left: 318px;
+    left: 310px;
+    top: 6px;
 }
+.menu-faixa{
+   background-color: black;
+   
+   padding-bottom: 45px;
+   padding-left: 10px;
+
+   height: 7px;
+    
+   color: white;
+   font-size: 30px;
+
+   line-height: 50px;
+   
+
+}
+
 .menu{
     list-style: none;
 
     position: absolute;
    
-    width: 80%;
+    width: 100%;
 
     padding: 10px;
 
@@ -39,7 +58,7 @@ body{
 
     font-size: 10px;
 
-    background-color: black;
+    display: none;
 }
 .menu a{
     color:white;
@@ -57,7 +76,7 @@ body{
     font-size: 15px;
 }
 .texto-apresentacao{
-    position: relative;
+    position: absolute;
     line-height: 25px;
 
     font-family: 'Abel', sans-serif;
@@ -67,7 +86,7 @@ body{
     
     letter-spacing: 2px;
 
-    display: block;
+    
     
     top: 100px;
 }
@@ -75,11 +94,11 @@ body{
       font-size: 30px;
       background-color: white;
       padding: 10px;
-      width: 360px;
+     
       border-radius: 10px;
 }
 .texto-apresentacao h2{
-    font-size: 30px;
+    font-size: 18px;
 }
 .imagem-principal{   
     position: relative;
@@ -98,7 +117,7 @@ body{
     display: block;
     
     top: 170px;
-    left: 250px;
+    left: 80px;
     
     background-color: white;
 
@@ -119,12 +138,11 @@ body{
     box-shadow: 1px 1px 3px black;
 } 
 .cadastro{
-    position: relative;
+    position: absolute;
     display:block;
 
-    top: 255px;
-    left: 250px;
-
+    top: 620px;
+    left: 80px;
     height: 100px;
     width: 210px;
 }
@@ -143,13 +161,16 @@ legend{
 
 }
 .rodape{
-    position: relative;
-    display:block;
+    position: absolute;
+ 
 
-    top: 650px;
+    bottom: 0px;
+    height: 35px;
     
-    width: 720px;
-      
+    width: 100%;
+   
+    line-height: 40px;  
+
     border-top: 1px solid #000000;
      
     text-align: center;

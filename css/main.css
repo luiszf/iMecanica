@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+   
 body{
     font-family: 'Ropa Sans', sans-serif;    
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,51,47,0.65)), to(rgba(181,175,151,0.286))) fixed;  
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(55,51,47,0.65)), to(rgba(181,175,151,0.286))) fixed;   
     
 }
 .one,
@@ -22,7 +24,7 @@ body{
 
     width: 10%;
    
-    left: 310px;
+    left: 368px;
     top: 6px;
 }
 .menu-faixa{
@@ -37,10 +39,7 @@ body{
    font-size: 30px;
 
    line-height: 50px;
-   
-
 }
-
 .menu{
     list-style: none;
 
@@ -64,7 +63,6 @@ body{
     color:white;
     text-decoration: none;
 }
-
 .cabecalho-mecanica{
     text-transform: none;
   
@@ -96,6 +94,8 @@ body{
       padding: 10px;
      
       border-radius: 10px;
+
+   
 }
 .texto-apresentacao h2{
     font-size: 18px;
@@ -107,6 +107,7 @@ body{
     height:300px;
     width:300px;
 
+   margin: auto;
     top: 150px;
    
     background: url(/img/mecanico-casa.jpeg) no-repeat;
@@ -117,7 +118,9 @@ body{
     display: block;
     
     top: 170px;
-    left: 80px;
+    
+    margin-left: auto;
+    margin-right: auto;
     
     background-color: white;
 
@@ -137,37 +140,53 @@ body{
 
     box-shadow: 1px 1px 3px black;
 } 
-.cadastro{
-    position: absolute;
-    display:block;
-
-    top: 620px;
-    left: 80px;
-    height: 100px;
-    width: 210px;
-}
 legend{
     text-transform: uppercase;
     font-size: 15px;
     text-align: center;
 }
+
 .dados{
+    position: relative;
+    display:block;
+
+    top: 250px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 10%;
+
+    align-items: center;
+
+  
+
     background-color:rgba(181,175,151,0.286);
     
-    border-color:white;
+    border-color:rgba(181,175,151,0.286);
     border-radius: 10px;
 
     box-shadow: 1px 2px 2px rgba(181,175,151,0.286);
 
+   
+}
+#enviar {
+    display: block;
+    position: relative;
+
+    left: 60px;
+    bottom:2px;
+
+    padding: 5px;
 }
 .rodape{
-    position: absolute;
+    position:fixed;
  
 
     bottom: 0px;
     height: 35px;
     
-    width: 100%;
+    width: 425px;
    
     line-height: 40px;  
 

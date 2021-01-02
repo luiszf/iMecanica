@@ -11,88 +11,109 @@
         href="https://fonts.googleapis.com/css2?family=Abel&family=Rambla:ital@0;1&family=Ropa+Sans&family=Staatliches&display=swap"
         rel="stylesheet">
 
-        <!-- linkbootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- linkbootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-        
+
     <title>iMecânica</title>
 </head>
 
 <body>
-    <div id="initial-screen">
 
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a href="#" class="navbar-brand">iMecânica</a>
 
-        <div class="menu-hamburguer">
-            <div class="one"></div>
-            <div class="two"> </div>
-            <div class="three"></div>
-        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div class="menu-faixa">
-   <span>iMecânica</span>
-</div>
+        <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">LOJA</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="menu_dropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">SERVIÇOS</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Freios</a>
+                        <a href="#" class="dropdown-item">Corrente dentada</a>
+                        <a href="#" class="dropdown-item">Pneu furado</a>
+                        <a href="#" class="dropdown-item">Suspensão</a>
+                        <a href="#" class="dropdown-item">Injeção eletrônica</a>
+                    </div>
+                </li>
 
-
-        <nav>
-            <ul class="menu">
-                <li class="cabecalho-mecanica"><a href=""> iMecânica</a></li>
-                <li class="cabecalho-freio"><a href="">Freio</a></li>
-                <li class="cabecalho-suspensao"><a href="">Suspensão</a></li>
-                <li class="cabecalho-corrente"><a href="">Corrente Dentada</a></li>
-                <li class="cabecalho-injecao"><a href="">Injeção Eletrônica</a></li>
-                <li class="cabecalho-pedidos"><a href=""> Pedidos</a></li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">SEU PEDIDO</a>
+                </li>
             </ul>
-        </nav>
-
-        <div class="texto-apresentacao">
-            <h2>Está com algum problema no carro?</h2>
-            <h1>Levamos uma mecânica aonde você estiver!</h1>
         </div>
+    </nav>
 
-
-
-        <div class="imagem-principal">
-
+    <section>
+        <div>
+            <img src="img/1.png" class="img-fluid" alt="">
         </div>
+    </section>
 
-        <div class="conheca-nos">
-            <span> Conheça-nos</span>
+
+    <footer>
+        <!--JS-->
+        <script src="jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+
+        <!--background_rosa foi criado no CSS-->
+        <div class="container-fluid bg-dark">
+            <div class="row text-light">
+                <div class="col-6 text-left">
+                    <h4 class="my-4">SOBRE</h4>
+                    <!---(my) aplica nas margens top and bottom-->
+                    <p class="my-4">Você não precisa mais ir até a mecânica, nós vamos até você!<br> A iMecânica nasceu
+                        com
+                        o objetivo de facilitar a sua vida. </p>
+                </div>
+
+                <div class="col-2">
+
+                </div>
+                <div class="col-2 ">
+                    <h4 class="my-4">SOBRE</h4>
+                    <p><a href="#" class="text-light">Time</a></p>
+                    <p><a href="#" class="text-light">Metas</a></p>
+                    <p><a href="#" class="text-light">Ética</a></p>
+                    <p><a href="#" class="text-light">Junte-se a nós</a></p>
+                </div>
+                <div class="col-2">
+                    
+                </div>
+            </div>
+
+            <div class="text-center" style="font-size: 15px">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a class="text-light" href="#">Instagram</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-light" href="#">Facebook</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-light" href="">WhatsApp</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="text-light" href="#">Localização</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
-
-
-        <div class="cadastro">
-
-            <form action="">
-                <fieldset class="dados">
-                    <legend>Agende uma visita por aqui</legend>
-                    <label for="fname">Nome:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="fcpf">CPF:</label>
-                    <input type="text" id="fcpf" name="fcpf"><br><br>
-                    <label for="fcelular">Celular:</label>
-                    <input type="text" id="fcelular" name="fcelular"><br><br>
-                    <label for="fdia">Dia:</label>
-                    <input type="text" id="fdia" name="fdia"><br><br>
-                    <label for="fhorario">Horário:</label>
-                    <input type="text" id="fhorario" name="fhorario"><br><br>
-                    <label for="fproblema">Qual o problema no carro?</label>
-                    <input type="text" id="fproblema" name="fproblema"><br><br>
-                    <label for="fdescricao">Descreva o problema:</label>
-                    <input type="text" id="fdescricao" name="fdescricao"><br><br>
-                    <input type="submit" id="enviar" value="ENVIAR">
-                </fieldset>
-            </form>
-
         </div>
+    </footer>
 
-
-
-
-        <footer class="rodape">
-            <p>Instagram | Whatsapp</p>
-        </footer>
-
-    </div>
 </body>
-
 </html>

@@ -1,5 +1,8 @@
 @media (min-width: 576px) { 
-    .linha {
-        width: 90%;
+    body {
+        width: 496px;
     }
+}
+body{
+    width: 496px;
 }

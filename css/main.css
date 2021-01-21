@@ -1,8 +1,5 @@
-@media (min-width: 576px) { 
+@media (max-width: 576px) { 
     body {
         width: 496px;
     }
-}
-body{
-    width: 496px;
 }

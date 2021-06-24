@@ -1,5 +1,175 @@
-@media (max-width: 576px) { 
-    body {
-        width: 496px;
-    }
+body, *{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Nunito", Helvitica, Arial, sans-serif;
+    color: #222222; 
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%; /*Faz com que não perca a qualidade*/
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*Superinfo*/
+
+.superinfo-bg{
+    background: #122ab2;
+    color: white;
+}
+
+.superinfo{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /*Faz com que o elemento quebra na próxima linha*/
+}
+
+.superinfo p, .superinfo a{
+    margin: 0 10px 10px 10px;
+}
+
+.superinfo a{
+    color: white;
+}
+
+/*Menu*/
+
+.menu-bg{
+    background: #2c70ff;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+
+.menu-logo{
+    font-size: 2.25em; /*36px*/
+    font-weight: bold;
+    margin: 0 10px; 
+}
+
+.menu-nav ul{
+    display: flex;
+}
+
+.menu-nav a{
+    font-size: 1.25rem;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #122ab2;
+}
+
+/*Introdução*/
+
+.introducao{
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+/*Sobre*/
+
+.sobre{
+    border-top: 2px solid #2c70ff;
+    border-bottom: 2px solid #2c70ff;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h1{
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+/*Produtos*/
+
+.produtos{
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1{
+    font-size: 3em;
+    margin: 0 10px 60px 10px; /* left - bottom - right - top*/ 
+}
+
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item{
+    flex: 1 1 175px; /*Quando passar do 175px começa a quebrar*/
+    margin: 10px;
+}
+
+.produtos-item h2{
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+
+.pink{
+    border-top: 8px solid #1f0158;
+}
+
+.blue{
+    border-top: 8px solid #35078a;
 }

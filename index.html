@@ -1,136 +1,196 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Abel&family=Rambla:ital@0;1&family=Ropa+Sans&family=Staatliches&display=swap"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-
-    <!-- linkbootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
-    <title>iMecânica</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Hotel Sinko</title>
 </head>
 
 <body>
+    <div class="superinfo-bg">
+        <div class="superinfo">
+            <p>Seg / Sex - 08:00 às 18:00</p>
+            <a href="tel:+552199999999">+55 21 9999-9999</a>
+            <p>Av. Ali Perto, 330, Botafogo - RJ</p>
+        </div>
+    </div>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-        
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <a href="#" class="navbar-brand">iMecânica</a>
+    <header class="menu-bg">
+        <div class="menu">
+            <div class="menu-logo">
+                <a href="#">Hotel Sinko</a>
+            </div>
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#preco">Preço</a></li>
+                    <li><a href="#qualidade">Qualidade</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <div id="menu" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-md-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">LOJA</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="#" id="menu_dropdown" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">SERVIÇOS</a>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Freios</a>
-                        <a href="#" class="dropdown-item">Corrente dentada</a>
-                        <a href="#" class="dropdown-item">Pneu furado</a>
-                        <a href="#" class="dropdown-item">Suspensão</a>
-                        <a href="#" class="dropdown-item">Injeção eletrônica</a>
-                    </div>
-                </li>
+    <h1 class="introducao">Novos valores e <br> Propriedades de CSS</h1>
 
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">SEU PEDIDO</a>
-                </li>
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+        <div class="sobre-img">
+            <img src="/img/sobre1.jpg" alt="Sobre 1">
+        </div>
+        <div class="sobre-img">
+            <img src="/img/sobre2.jpg" alt="Sobre 2">
+        </div>
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h1>Produtos</h1>
+        <div class="produtos-container">
+            <div class="produtos-item purple">
+                <h2>Purple</h2>
+                <img src="/img/produtos1.jpg" alt="Produtos 1">
+            </div>
+            <div class="produtos-item pink">
+                <h2>Pink</h2>
+                <img src="/img/produtos2.jpg" alt="Produtos 2">
+            </div>
+            <div class="produtos-item blue">
+                <h2>Pink</h2>
+                <img src="/img/produtos3.jpg" alt="Produtos 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="preco" id="preco">
+        <div class="preco-item">
+            <h2>Cobre</h2>
+            <span><sup>R$</sup>19</span>
+            <ul>
+                <li>Planos ilimitados</li>
+                <li>Acesso restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
             </ul>
-        </div>
-    </nav>
-
-
-
-
-    <div class="container-fluid pl-0 pr-0">
-        <img src="img/1-circle.png" class="img-fluid" alt="">
-    </div>
-
-    <div class="container-fluid bg-dark text-center pt-4" style="height: 200px;" id="first-entre-em-contato">
-        <button type="button" class="btn btn-outline-light mt-5">Está com problemas no carro? <strong>Entre em
-                contato</strong></button>
-    </div>
-
-    <div class="container-fluid bg-light" style="height: 200px;">
-
-        <div class="linha">
-            <div class="row">
-                <div class="col col-xs-12 text-center pt-4">
-                    <a class="btn btn-outline-dark mt-3 btn-lg" href="#" role="button">Chamar a iMecânica</a>
-                </div>
-
-                <div class="col col-xs-12 text-center pt-4">
-                    <a class="btn btn-outline-dark mt-3  btn-lg" href="#" role="button">Encontrar a iMecânica mais
-                        próxima</a>
-                </div>
-            </div>
+            <a href="#">Comprar</a>
         </div>
 
-    </div>
-
-    <footer>
-        <!--JS-->
-        <script src="jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-
-
-        <div class="container-fluid bg-dark">
-            <div class="row text-light">
-                <div class="col-12 text-left">
-                    <h4 class="my-4">SOBRE</h4>
-                    <!---(my) aplica nas margens top and bottom-->
-                    <p class="my-4 mb-5">A iMecânica nasceu
-                        com
-                        o objetivo de facilitar a sua vida.<br>Fundada em 2020. Nosso aplicativo está em
-                        desenvolvimento.</p>
-                </div>
-
-
-            </div>
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>39</span>
+            <ul>
+                <li>Planos ilimitados</li>
+                <li>Acesso restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Compra exclusiva</li>
+            </ul>
+            <a href="#">Comprar</a>
         </div>
 
-        <div class="container-fluid bg-dark">
-            <div class="row">
-                <div class="col-12 text-center">
-
-
-                    <ul class="list-inline mt-5">
-                        <li class="list-inline-item">
-                            <a class="text-light" href="#">Instagram</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-light" href="#">Facebook</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-light" href="#">WhatsApp</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-light" href="#">Localização</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="preco-item">
+            <h2>Ourto</h2>
+            <span><sup>R$</sup>79</span>
+            <ul>
+                <li>Planos ilimitados</li>
+                <li>Acesso restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Compra exclusiva</li>
+            </ul>
+            <a href="#">Comprar</a>
         </div>
+    </section>
+
+    <section class="qualidade" id="qualidade">
+        <div class="qualidade-item">
+            <h2>Inteligente</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Opaco</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Sustentável</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Transparente</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Compacto</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+
+        <div class="qualidade-item">
+            <h2>Economico</h2>
+            <p>
+                O que temos que ter sempre em mente é que a determinação clra de objetivos afeta positivamente a correta
+                previsão
+                das condições inegavelmente apropriadas objetivos.
+            </p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-info">
+            <p>
+                Assine e fique por dentro das novidades
+            </p>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Seu e-mail">
+            <button type="submit">Assinar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>
+            Desenvolvido por Luis Fernando, 2021.
+        </p>
     </footer>
-
 </body>
 
 </html>

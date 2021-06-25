@@ -28,8 +28,8 @@ img{
 /*Superinfo*/
 
 .superinfo-bg{
-    background: #122ab2;
-    color: white;
+    background:#F7CE3F;
+    color: #0A1612;
 }
 
 .superinfo{
@@ -45,13 +45,13 @@ img{
 }
 
 .superinfo a{
-    color: white;
+    color: #0A1612;
 }
 
 /*Menu*/
 
 .menu-bg{
-    background: #2c70ff;
+    background: #0A1612;
 }
 
 .menu{
@@ -65,7 +65,7 @@ img{
 }
 
 .menu a{
-    color: white;
+    color: #F7CE3F;
 }
 
 .menu-logo{
@@ -85,7 +85,7 @@ img{
 }
 
 .menu-nav a:hover{
-    color: #122ab2;
+    color: white;
 }
 
 /*Introdução*/
@@ -101,8 +101,8 @@ img{
 /*Sobre*/
 
 .sobre{
-    border-top: 2px solid #2c70ff;
-    border-bottom: 2px solid #2c70ff;
+    border-top: 2px solid #F7CE3F;
+    border-bottom: 2px solid #F7CE3F;
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;

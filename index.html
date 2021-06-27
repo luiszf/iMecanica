@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/animation.css">
     <title>iMecânica</title>
 </head>
 
@@ -16,7 +18,7 @@
     <div class="superinfo-bg">
         <div class="superinfo">
             <p>Seg / Sex - 08:00 às 18:00</p>
-            <a href="tel:+552199999999">Contato: +55 21 9999-9999</a>
+            <a href="tel:+552199999999">+55 21 9999-9999</a>
         </div>
     </div>
 
@@ -27,18 +29,18 @@
             </div>
             <nav class="menu-nav">
                 <ul>
-                    <li><a href="#sobre">Injeção Eletrônica</a></li>
-                    <li><a href="#produtos">Suspensão</a></li>
-                    <li><a href="#qualidade">Troca de roda</a></li>
+                    <li><a href="#services">Injeção Eletrônica</a></li>
+                    <li><a href="#services">Suspensão</a></li>
+                    <li><a href="#services">Troca de roda</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <h1 class="introducao">Seu carro quebrou?<br>Entre em contato e nós iremos até você!</h1>
+    <h1 class="introduction">Seu carro quebrou?<br>Entre em contato e nós iremos até você!</h1>
 
-    <section class="sobre" id="sobre">
-        <div class="sobre-info">
+    <section class="about" id="services">
+        <div class="about-info">
             <p>
                 Somos uma mecânica móvel, não temos uma loja física.
             </p>
@@ -48,50 +50,57 @@
             <p>
                 Se seu carro quebrou, mande uma mensagem para nós e iremos até você.
             </p>
-            <button type="button" class="enviar-mensagem">
-                Enviar mensagem
+            <button type="button" class="toSendMensage">
+                <a href="https://api.whatsapp.com/send?phone=5511951228977&text=Olá iMecânica, preciso consultar seus serviços!"
+                target="_blank">Enviar mensagem</a> 
+                <i class="fas fa-arrow-right"></i>
             </button>
         </div>
-        <div class="sobre-img">
+        <div class="about-img">
             <img src="/img/mecanico1.jpg" alt="Sobre 1">
         </div>
     </section>
 
-    <section class="produtos" id="produtos">
+    <section class="services" id="services"  data-anime="show">
         <h1>Nossos serviços</h1>
-        <div class="produtos-container">
-            <div class="produtos-item purple">
-                <img src="/img/injecao-eletronica.jpg" alt="Produtos 1">
-                <h2>Injeção Eletrônica</h2>
-            </div>
-            <div class="produtos-item pink">
-                <img src="/img/freio.jpg" alt="Produtos 2">
-                <h2>Freio</h2>
-            </div>
-            <div class="produtos-item blue">
+        <div class="services-container">
+            <div class="services-item border-left-yellow">
                 <img src="/img/troca-roda.jpg" alt="Produtos 3">
                 <h2>Troca de roda</h2>
             </div>
+            <div class="services-item border-left-yellow">
+                <img src="/img/injecao-eletronica.jpg" alt="Produtos 1">
+                <h2>Injeção Eletrônica</h2>
+            </div>
+            <div class="services-item border-left-yellow">
+                <img src="/img/freio.jpg" alt="Produtos 2">
+                <h2>Freio</h2>
+            </div>
+           
         </div>
     </section>
 
-    <section class="newsletter">
+    <section class="newsletter"  data-anime="show">
         <div class="newsletter-info">
             <p>
-                Assine e fique por dentro das novidades
+                Envie uma mensagem no nosso WhatsApp e nós iremos até você!
             </p>
         </div>
         <form action="" class="newsletter-form">
-            <input type="text" placeholder="Seu e-mail">
-            <button type="submit">Assinar</button>
+            <button type="button">
+                <a href="https://api.whatsapp.com/send?phone=5511951228977&text=Olá iMecânica, preciso consultar seus serviços!"
+                target="_blank">Enviar mensagem</a> 
+                <i class="fas fa-arrow-right"></i>
+            </button>
         </form>
     </section>
 
-    <footer class="footer">
+    <footer class="footer"  data-anime="show">
         <p>
             Desenvolvido por Luis Fernando, 2021.
         </p>
     </footer>
+    <script src="js/animation.js"></script>
 </body>
 
 </html>

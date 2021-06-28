@@ -5,7 +5,7 @@
 <p>Seu carro quebrou? Chame a iMecânica, nós iremos até você</p>
 
 <h4> 
-	Finalizado em , 2021. :heavy_check_mark:
+	Finalizado em junho, 2021. :heavy_check_mark:
 </h4>
 
 As seguintes ferramentas foram usadas na construção do projeto:
